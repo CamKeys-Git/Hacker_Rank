@@ -5,9 +5,10 @@ import sys
 # Complete the simpleArraySum function below.
 #
 def simpleArraySum(ar):
-    #
-    # Write your code here.
-    #
+    sum = 0
+    for num in ar:
+        sum += num
+    return sum    
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
